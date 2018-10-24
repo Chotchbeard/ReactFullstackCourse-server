@@ -18,7 +18,8 @@ passport.serializeUser((user, done) => {
 
 /*
  * This gets the user's record from the db based
- * on the token in their cookie.
+ * on the token in their cookie.  It is added to
+ * request objects.
  */
 passport.deserializeUser((id, done) => {
   User.findById(id).then(user => {
