@@ -19,6 +19,11 @@
   },
   "author": "",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "dependencies": {
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.4",
@@ -28,7 +33,9 @@
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
+    "husky": "^1.1.2",
     "nodemon": "^1.18.4",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
   }
 }
