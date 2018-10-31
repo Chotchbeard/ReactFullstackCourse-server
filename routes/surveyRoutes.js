@@ -20,6 +20,7 @@ module.exports = app => {
     });
 
     // send the emails
-    const Mailer = new Mailer(survey, surveyTemplate(survey));
+    const mailer = new Mailer(survey, surveyTemplate(survey));
+    mailer.send();
   });
 };
