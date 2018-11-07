@@ -29,7 +29,7 @@
     "mongoose": "^5.3.6",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0",
-    "path-parser": "^4.2.0",
+    "path-parser": "^2.0.2",
     "sendgrid": "^5.2.3",
     "stripe": "^6.13.0"
   },
